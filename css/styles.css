@@ -1,0 +1,123 @@
+body{
+	padding:10px;
+	background-color:#fff;
+}
+.form-wrapper{
+	font-family:Helvetica, sans-serif;
+	font-size:16px;
+}
+ header{
+ 	font-family:Helvetica, sans-serif;
+ }
+label{
+	width: 120px;
+	display:inline-block;
+	text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+button{
+	margin-top:100px;
+	background:transparent;
+	border:0;
+	cursor:pointer;
+}
+#user_id_form{
+	border-bottom:0px 
+}
+.copy-btn{
+	width: 20px;
+}
+.column-action{
+	/* display:inline-block; */
+	vertical-align: top;
+}
+.column-action{
+	background: white;
+    /* width: 20em; */
+    /* border: 1px solid #52717c; */
+    /* padding: 15px; */
+    /* border-radius: 20px; */
+}
+
+.column-action2{
+	background: white;
+    /* width: 20em; */
+    border: 1px solid #52717c;
+    padding: 15px;
+    border-radius: 20px;
+}
+.started {
+	height: 30px;
+	float: left;
+    font-weight: 700 !important;
+    background: #95e000;
+    color: rgb(0, 0, 0) !important;
+    padding: 4px 35px !important;
+    border-radius: 33px !important;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    transition: all .4s ease;
+    top: 10px;
+    margin: 0 !important;
+    right: 11px;
+    border: none;} 
+.txtbox {
+	height: 30px;
+    border-radius: 30px;
+    padding: 4px;
+    border: none;
+	box-shadow: 0 28px 50px rgb(0 0 0 / 16%);}
+
+
+
+
+	
+body{
+	background: no-repeat;
+    background-image: url(../images/1.png);
+    background-size: cover;
+}
+	
+
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+	color: #95e000;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+	color: #fff
+	;
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+}
+button:hover{
+	cursor: pointer;
+}
+
+.column {
+	float: left;
+	width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
